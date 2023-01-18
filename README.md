@@ -61,3 +61,36 @@ Para abrir a tabela no browser
 Para integrar o back com front end instalar o CORS
 
 ## npm i @fastify/cors
+
+Inicio do Front End WEB
+
+## npm create vite@latest
+
+Iniciar com React e Typescript
+
+Abrir no Vscode e instalar dependências:
+
+## npm install
+
+Integrar Tailwindcss
+
+## npm install -D tailwindcss postcss autoprefixer
+
+Executar para criar os arquivos de configuração
+
+## npx tailwindcss init -p
+
+o -p cria o arquivo postcss.config.cjs
+
+Criar a pasta styles no SRC
+Dentro dela criar o arquivo
+
+## global.css
+
+Adicionar as linhas universais
+
+## @tailwind base;
+
+## @tailwind utilities;
+
+## @tailwind components;
